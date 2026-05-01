@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Yutong Zhou portfolio - product design, UX, interaction, and service design."
+      content="Yutong Zhou 포트폴리오 - 제품 디자인, UX, 인터랙션, 서비스 디자인."
     />
-    <title>Yutong Zhou Portfolio</title>
+    <title>Yutong Zhou 포트폴리오</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,74 +19,239 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#home">Yutong Zhou</a>
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
+
+      <button class="nav-toggle" type="button" aria-label="내비게이션 열기" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#works">Works</a>
-        <a href="#contact">Contact</a>
+
+      <nav class="site-nav" aria-label="주요 내비게이션">
+        <a href="#about">소개</a>
+        <a href="#works">작업</a>
+        <a href="#contact">연락</a>
       </nav>
     </header>
 
     <main id="home">
       <section class="hero section-shell">
-        <div class="hero-copy">
-          <p class="role-pill">Product Designer</p>
+        <div class="hero-copy reveal">
+          <p class="role-pill">프로덕트 디자이너</p>
           <h1>Yutong Zhou</h1>
-          <p class="hero-lede">Designing thoughtful experiences at the intersection of technology and human emotion</p>
-          <div class="contact-list" aria-label="Contact details">
-            <a href="tel:01081655279"><span>☎</span>010-8165-5279</a>
-            <a href="mailto:m2yutongzhou@outlook.com"><span>✉</span>m2yutongzhou@outlook.com</a>
+          <p class="hero-lede">
+            기술과 인간의 감정이 만나는 지점에서 사려 깊은 경험을 디자인합니다
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-link" href="#works">
+              <span>작업 보기</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14" />
+                <path d="m13 6 6 6-6 6" />
+              </svg>
+            </a>
+            <a class="quiet-link" href="mailto:m2yutongzhou@outlook.com">연락하기</a>
+          </div>
+
+          <div class="contact-list" aria-label="연락처 정보">
+            <a href="tel:01081655279">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3.1 5.2 2 2 0 0 1 5.1 3h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.4 2.1L9.2 10.8a16 16 0 0 0 4 4l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"
+                />
+              </svg>
+              010-8165-5279
+            </a>
+            <a href="mailto:m2yutongzhou@outlook.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 6h16v12H4z" />
+                <path d="m4 7 8 6 8-6" />
+              </svg>
+              m2yutongzhou@outlook.com
+            </a>
           </div>
         </div>
-        <figure class="hero-image">
-          <img src="./assets/portrait.webp" alt="Yutong Zhou standing under cherry blossoms" />
+
+        <figure class="hero-image reveal">
+          <img
+            src="./assets/portrait.webp"
+            alt="벚꽃 아래에 서 있는 Yutong Zhou"
+          />
         </figure>
       </section>
 
       <section class="statement" id="about">
-        <div class="statement-block">
-          <h2>Designer Statement</h2>
-          <p>I believe design is a bridge between technology and humanity. My work explores how digital experiences can evoke calm, connection, and meaningful interaction. From immersive product design to service innovation, I craft solutions that honor both functionality and emotional resonance.</p>
-          <p>With a focus on UX, product design, and thoughtful interaction, I create experiences that feel natural, refined, and future-forward.</p>
+        <div class="statement-block reveal">
+          <p class="section-kicker">소개</p>
+          <h2>디자이너 소개</h2>
+          <p>
+            저는 디자인이 기술과 인간성을 잇는 다리라고 믿습니다. 제 작업은 디지털 경험이
+            어떻게 차분함, 연결감, 의미 있는 상호작용을 만들어낼 수 있는지 탐구합니다.
+            몰입형 제품 디자인부터 서비스 혁신까지, 기능성과 감정적 공감을 함께 담는
+            솔루션을 만듭니다.
+          </p>
+          <p>
+            UX, 제품 디자인, 섬세한 인터랙션을 중심으로 자연스럽고 정제되며 미래지향적인
+            경험을 설계합니다.
+          </p>
         </div>
-        <div class="section-intro">
-          <h2>Background &amp; Experience</h2>
-          <p>Bridging traditional craft, digital innovation, and human-centered design through continuous learning and exploration</p>
+
+        <div class="experience-grid reveal">
+          <article>
+            <span>중점</span>
+            <strong>UX, 제품 시스템, 인터랙션 디자인</strong>
+          </article>
+          <article>
+            <span>접근 방식</span>
+            <strong>명확한 감정적 목적을 가진 차분한 인터페이스</strong>
+          </article>
+          <article>
+            <span>맥락</span>
+            <strong>웰니스, 서비스 혁신, 사회적 연결</strong>
+          </article>
         </div>
       </section>
 
       <section class="works" id="works">
-        <div class="works-heading">
-          <h2>Selected Works</h2>
-          <p>Exploring design through wellness, interaction, and connection</p>
+        <div class="works-heading reveal">
+          <p class="section-kicker">주요 작업</p>
+          <h2>프로젝트 스토리</h2>
+          <p>웰니스, 인터랙션, 연결을 통해 디자인을 탐구합니다</p>
         </div>
-        <article class="work-card">
-          <div class="work-copy"><h3>입면</h3><p>Product Design / Smart Wellness</p></div>
-          <img src="./assets/project-imyeon.webp" alt="Imyeon smart wellness product design" />
-        </article>
-        <article class="work-card">
-          <div class="work-copy"><h3>Bob</h3><p>Interactive Installation / Social Reflection</p></div>
-          <img src="./assets/project-bob.webp" alt="Bob interactive installation visual" />
-        </article>
-        <article class="work-card">
-          <div class="work-copy"><h3>MindChat</h3><p>Service Design / Mobile Interface</p></div>
-          <img src="./assets/project-mindchat.webp" alt="MindChat mobile service design" />
-        </article>
+
+        <div class="case-stage reveal" style="--case-accent: #2f7d7b">
+          <div class="case-copy">
+            <p class="case-index featured-index">01 / 스마트 웰니스</p>
+            <h3 class="featured-title">&#51077;&#47732;</h3>
+            <p class="featured-category">제품 디자인 / 스마트 웰니스</p>
+            <p class="featured-description">
+              촉각적인 제품 언어, 은은한 피드백, 차분한 침대 옆 인터페이스를 통해 더
+              부드러운 수면 루틴을 제안하는 스마트 웰니스 제품 콘셉트입니다.
+            </p>
+            <div class="case-tags" aria-label="프로젝트 태그">
+              <span>스마트 제품</span>
+              <span>UI</span>
+              <span>UX</span>
+            </div>
+            <button class="image-action" type="button" data-open-image>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15 3h6v6" />
+                <path d="m21 3-7 7" />
+                <path d="M9 21H3v-6" />
+                <path d="m3 21 7-7" />
+              </svg>
+              <span>이미지 크게 보기</span>
+            </button>
+          </div>
+
+          <button class="case-media" type="button" data-open-image aria-label="프로젝트 이미지 크게 보기">
+            <img
+              class="featured-image"
+              src="./assets/project-imyeon.webp"
+              alt="입면 스마트 웰니스 제품 프레젠테이션"
+            />
+            <span class="media-cue">이미지 보기</span>
+          </button>
+        </div>
+
+        <div class="case-selector" role="tablist" aria-label="프로젝트 선택">
+          <button
+            class="case-tab is-active"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            data-project="imyeon"
+          >
+            <span>01</span>
+            <strong>&#51077;&#47732;</strong>
+            <small>스마트 웰니스</small>
+          </button>
+          <button class="case-tab" type="button" role="tab" aria-selected="false" data-project="bob">
+            <span>02</span>
+            <strong>Bob</strong>
+            <small>인터랙티브 설치</small>
+          </button>
+          <button
+            class="case-tab"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            data-project="mindchat"
+          >
+            <span>03</span>
+            <strong>MindChat</strong>
+            <small>서비스 디자인</small>
+          </button>
+        </div>
+
+        <div class="case-briefs reveal">
+          <article>
+            <span>역할</span>
+            <strong class="brief-role">제품 콘셉트, UX 흐름, 비주얼 시스템</strong>
+          </article>
+          <article>
+            <span>결과물</span>
+            <strong class="brief-output">물리적 제품 스토리와 인터페이스 방향성</strong>
+          </article>
+          <article>
+            <span>주제</span>
+            <strong class="brief-theme">회복적인 루틴과 부드러운 피드백</strong>
+          </article>
+        </div>
       </section>
 
       <section class="connect" id="contact">
-        <h2>Let's Connect</h2>
-        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-        <div class="connect-actions">
-          <a class="contact-button dark" href="tel:01081655279">☎ 010-8165-5279</a>
-          <a class="contact-button light" href="mailto:m2yutongzhou@outlook.com">✉ m2yutongzhou@outlook.com</a>
+        <div class="connect-inner reveal">
+          <p class="section-kicker">연락</p>
+          <h2>함께 이야기해요</h2>
+          <p>
+            새로운 프로젝트, 창의적인 아이디어, 함께 만들어갈 기회에 대해 언제든지
+            이야기할 준비가 되어 있습니다.
+          </p>
+
+          <div class="connect-actions">
+            <a class="contact-button dark" href="tel:01081655279">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 3.1 5.2 2 2 0 0 1 5.1 3h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.4 2.1L9.2 10.8a16 16 0 0 0 4 4l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"
+                />
+              </svg>
+              010-8165-5279
+            </a>
+            <a class="contact-button light" href="mailto:m2yutongzhou@outlook.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 6h16v12H4z" />
+                <path d="m4 7 8 6 8-6" />
+              </svg>
+              m2yutongzhou@outlook.com
+            </a>
+          </div>
+
+          <p class="copyright">&copy; 2026 Yutong Zhou. 모든 권리 보유.</p>
         </div>
-        <p class="copyright">© 2026 Yutong Zhou. All rights reserved.</p>
       </section>
     </main>
-    <a class="back-top" href="#home" aria-label="Back to top">↑</a>
+
+    <a class="back-top" href="#home" aria-label="맨 위로 이동">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="m12 19V5" />
+        <path d="m5 12 7-7 7 7" />
+      </svg>
+    </a>
+
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="프로젝트 이미지 미리보기" hidden>
+      <button class="lightbox-close" type="button" aria-label="이미지 미리보기 닫기">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      </button>
+      <figure>
+        <img class="lightbox-image" src="./assets/project-imyeon.webp" alt="" />
+        <figcaption class="lightbox-caption">&#51077;&#47732;</figcaption>
+      </figure>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
